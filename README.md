@@ -57,7 +57,7 @@ run_app.bat
     ```
     The web app will open in your browser at `http://localhost:8501`
 
-## 📊 Usage Guide
+## Usage Guide
 
 ### Algorithm Selection
 
@@ -132,7 +132,7 @@ The interface automatically adapts based on your algorithm choice:
 
 ### Theory Behind Page
 
-Navigate to the "📚 Theory Behind" tab to explore:
+Navigate to the "Theory Behind" tab to explore:
 - Detailed explanations of each algorithm
 - Mathematical formulations and pseudocode
 - Advantages and disadvantages comparison
