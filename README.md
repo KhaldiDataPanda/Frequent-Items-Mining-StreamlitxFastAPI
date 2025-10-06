@@ -2,7 +2,7 @@
 
 A comprehensive web application that uses various **metaheuristic algorithms** to find the most frequently occurring items in synthetically generated transaction data. The application features multiple optimization algorithms with dynamic parameter interfaces and detailed theoretical explanations.
 
-## 🌟 Features
+## Features
 
 - **Multiple Metaheuristic Algorithms**: Choose from GA, PSO, SA, and ACO
 - **Dynamic Parameter Interface**: UI adapts based on selected algorithm
@@ -17,7 +17,7 @@ A comprehensive web application that uses various **metaheuristic algorithms** t
 <img src="Figs/Most%20Frequent%20Item%20Mining1.png" alt="Application Interface" style="width:800px;">
 *Main application interface showing algorithm selection, dynamic parameters, and configuration options*
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -72,11 +72,11 @@ Choose from four powerful metaheuristic algorithms:
 
 - **Dataset Size**: Number of transactions to generate (100-10,000)
 - **Distribution Type**: Statistical distribution for transaction length generation
-  - **📈 Gaussian (Normal)**: Bell curve distribution (default)
-  - **📊 Uniform**: Equal probability for all values in range
-  - **🎯 Poisson**: Models count events and rare occurrences
-  - **📉 Exponential**: Models waiting times and heavily skewed data
-  - **🎲 Binomial**: Models success counts in fixed number of trials
+  - **Gaussian (Normal)**: Bell curve distribution (default)
+  - **Uniform**: Equal probability for all values in range
+  - **Poisson**: Models count events and rare occurrences
+  - **Exponential**: Models waiting times and heavily skewed data
+  - **Binomial**: Models success counts in fixed number of trials
 - **List Length Parameters**: (vary by distribution)
   - **Min/Max Length**: Range boundaries for all distributions
   - **Mean/Std Dev**: For Gaussian distribution
@@ -144,7 +144,7 @@ Navigate to the "📚 Theory Behind" tab to explore:
 <img src="Figs/Most%20Frequent%20Item3.png" alt="Theory Behind Page" style="width:800px;">
 *Comprehensive theory section with detailed algorithm explanations, mathematical formulations, and educational content*
 
-## 🏗️ Architecture
+## Architecture
 
 ### Backend (main.py)
 - **FastAPI Framework**: RESTful API with automatic documentation
@@ -166,7 +166,7 @@ Navigate to the "📚 Theory Behind" tab to explore:
 - **Real-time API Communication**: HTTP requests to backend with algorithm selection
 - **Error Handling**: User-friendly error messages and status indicators
 
-## 🧬 Algorithm Implementations
+## Algorithm Implementations
 
 ### Genetic Algorithm (GA)
 - **Selection**: Tournament selection with configurable tournament size
@@ -204,7 +204,7 @@ Frequent-Items-Mining-GA-PSO-main/
 └── README.md               # This file
 ```
 
-## 🔧 API Documentation
+##  API Documentation
 
 Once the FastAPI server is running, visit `http://localhost:8000/docs` for interactive API documentation with:
 - Request/response schemas
@@ -212,80 +212,7 @@ Once the FastAPI server is running, visit `http://localhost:8000/docs` for inter
 - Parameter descriptions
 - Example payloads
 
-## 🎯 Example Use Cases
 
-1. **Market Basket Analysis**: Find frequently bought together items using different optimization approaches
-2. **Algorithm Performance Comparison**: Compare GA, PSO, SA, and ACO on the same dataset
-3. **Educational Tool**: Learn about various metaheuristic algorithms with hands-on experience
-4. **Research Platform**: Experiment with algorithm parameters and synthetic datasets
-5. **Optimization Benchmarking**: Test algorithm convergence speed and solution quality
-6. **Parameter Sensitivity Analysis**: Study how different parameters affect algorithm performance
 
-## 🛠️ Customization
-
-### Adding New Algorithms
-- **Differential Evolution**: Add another evolutionary algorithm
-- **Harmony Search**: Implement music-inspired metaheuristic
-- **Firefly Algorithm**: Add nature-inspired swarm intelligence
-- **Tabu Search**: Implement memory-based local search
-
-### Enhancing Existing Features
-- **Algorithm Hybridization**: Combine multiple algorithms
-- **Advanced Visualizations**: Add convergence plots and parameter sensitivity analysis
-- **Export Functionality**: Save results and algorithm comparisons to CSV/JSON
-- **Real Data Support**: Upload actual transaction datasets
-- **Multi-objective Optimization**: Extend to handle multiple objectives simultaneously
-
-### Performance Optimization
-- **Parallel Processing**: Implement parallel execution for population-based algorithms
-- **GPU Acceleration**: Use CUDA for intensive computations
-- **Caching**: Implement intelligent caching for repeated analyses
-- **Database Integration**: Store results, configurations, and algorithm performance metrics
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **API Connection Error**:
-    - Ensure FastAPI server is running on the correct port
-    - Check firewall settings
-    - Verify the API URL in Streamlit sidebar
-
-2. **Performance Issues**:
-    - Reduce dataset size or number of generations
-    - Lower population size for faster execution
-    - Consider using smaller item ranges
-
-3. **Installation Problems**:
-    - Update pip: `python -m pip install --upgrade pip`
-    - Use virtual environment: `python -m venv venv && venv\Scripts\activate`
-    - Check Python version compatibility
-
-## 📝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 🙏 Acknowledgments
-
-- Original algorithm implementation from the Jupyter notebook
-- Streamlit and FastAPI communities for excellent documentation
-- Plotly for interactive visualization capabilities
-
-## 📞 Support
-
-For questions, issues, or suggestions:
-- Open an issue in the repository
-- Check the API documentation at `/docs`
-- Review the troubleshooting section above
-
----
 
 **Happy Mining! 🔍✨**
